@@ -18,7 +18,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 * Rodrigo Taino
 ## Orientador
 
-* Nome completo do professor 1
+* Viviâne de Almeida Torres
 
 ## Instruções de utilização
 
