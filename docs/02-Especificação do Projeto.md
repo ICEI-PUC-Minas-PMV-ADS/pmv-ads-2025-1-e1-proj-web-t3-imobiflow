@@ -36,10 +36,10 @@ Responsável pela administração dos cadastros de imóveis no sistema, leads e 
 <tr>
 <td><b>Necessidades:</b></td>
 <td>
-1.​ Cadastrar e listar imóveis;
-2.​ Cadastrar leads;
-3.​ Listar e filtrar leads;
-4.​ Distribuir leads que ainda não têm um corretor responsável entre os corretores;
+1.​ Cadastrar e listar imóveis;<br>
+2.​ Cadastrar leads;<br>
+3.​ Listar e filtrar leads;<br>
+4.​ Distribuir leads que ainda não têm um corretor responsável entre os corretores;<br>
 5.​ Gerar relatório de performance dos corretores.
 </td>
 </tr>
