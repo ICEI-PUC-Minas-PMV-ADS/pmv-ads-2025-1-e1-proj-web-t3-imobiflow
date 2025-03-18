@@ -46,6 +46,30 @@ Responsável pela administração dos cadastros de imóveis no sistema, leads e 
 </tbody>
 </table>
 
+<table>
+<tbody>
+<tr>
+<th colspan="2">Perfil 03: Corretor</th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição:</b></td>
+<td width="600px">
+Profissional corretor de imóveis responsável por acompanhar leads e realizar vendas.
+</td>
+</tr>
+<tr>
+<td><b>Necessidades:</b></td>
+<td>
+1.​ Cadastrar e listar imóveis;<br>
+2.​ Cadastrar leads;<br>
+3.​ Listar e filtrar leads;<br>
+4.​ Visualizar leads no formato kanban para acompanhar seu progresso;<br>
+5.​ Ser alertado quanto ao prazo de andamento dos leads e as etapas do funil de vendas com base na data-limite.
+</td>
+</tr>
+</tbody>
+</table>
+
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
