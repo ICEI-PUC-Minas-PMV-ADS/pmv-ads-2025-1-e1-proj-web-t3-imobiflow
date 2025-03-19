@@ -78,7 +78,9 @@ Profissional corretor de imóveis responsável por acompanhar leads e realizar v
 <th colspan="1">ID</th>
 <th colspan="2">Descrição do Requisito</th>
 <th colspan="3">História</th>
-<th colspan="4">Prioridade</th>
+<th colspan="4"></th>
+<th colspan="5"></th>
+<th colspan="6">Prioridade</th>
 </tr>
 <tr>
 <th colspan="1"></th>
