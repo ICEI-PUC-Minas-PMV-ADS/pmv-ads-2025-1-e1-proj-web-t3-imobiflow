@@ -5,7 +5,7 @@
 
 Perfil 1: Administrador: Responsavel pelo gerenciamento do sistema. Cria; edita e exclui perfis de usario.
 
-Perfil 2: Gerenete: Responsável pela administração dos cadastro de imóveis no sistema, leads e distribuição dos leads entre os corretores. Cadastrar e listar imóveis, cadastrar leads, listar e filtrar leads, distribuir leads que ainda não têm um corretor responsável entre os corretores, gerar relatório de performance dos corretores.
+Perfil 2: Gerente: Responsável pela administração dos cadastro de imóveis no sistema, leads e distribuição dos leads entre os corretores. Cadastrar e listar imóveis, cadastrar leads, listar e filtrar leads, distribuir leads que ainda não têm um corretor responsável entre os corretores, gerar relatório de performance dos corretores.
 
 Perfil 3: Corretor: Profissional corretor de imóveis responsável por acompanhar leads e realizar vendas. Cadastrar e listar imóveis, cadastrar leads, listar e filtrar leads, isualizar leads no formato kanban para acompanhar seu progresso, ser alertado quanto ao prazo de andamento dos leads e as etapas do funil de vendas com base na data-limite.
 
