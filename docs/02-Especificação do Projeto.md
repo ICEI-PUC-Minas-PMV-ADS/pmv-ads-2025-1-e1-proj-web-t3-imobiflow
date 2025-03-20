@@ -1,173 +1,233 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+## Perfis de usuário
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+<table border="1" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<th colspan="2">Perfil 01: Administrador</th>
+</tr>
+<tr>
+<td><b>Descrição:</b></td>
+<td>
+Responsável pelo gerenciamento do sistema.
+</td>
+</tr>
+<tr>
+<td><b>Necessidades:</b></td>
+<td>
+1.​ Criar, editar e excluir perfis de usuários do sistema. 
+</td>
+</tr>
+</tbody>
+</table>
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+<table border="1" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<th colspan="2">Perfil 02: Gerente</th>
+</tr>
+<tr>
+<td><b>Descrição:</b></td>
+<td>
+Responsável pela administração dos cadastros de imóveis no sistema, leads e distribuição dos leads entre os corretores.
+</td>
+</tr>
+<tr>
+<td><b>Necessidades:</b></td>
+<td>
+1.​ Cadastrar e listar imóveis;<br>
+2.​ Cadastrar leads;<br>
+3.​ Listar e filtrar leads;<br>
+4.​ Distribuir leads que ainda não têm um corretor responsável entre os corretores;<br>
+5.​ Gerar relatório de performance dos corretores.
+</td>
+</tr>
+</tbody>
+</table>
 
-## Personas
+<table border="1" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<th colspan="2">Perfil 03: Corretor</th>
+</tr>
+<tr>
+<td><b>Descrição:</b></td>
+<td>
+Profissional corretor de imóveis responsável por acompanhar leads e realizar vendas.
+</td>
+</tr>
+<tr>
+<td><b>Necessidades:</b></td>
+<td>
+1.​ Cadastrar e listar imóveis;<br>
+2.​ Cadastrar leads;<br>
+3.​ Listar e filtrar leads;<br>
+4.​ Visualizar leads no formato kanban para acompanhar seu progresso;<br>
+5.​ Ser alertado quanto ao prazo de andamento dos leads e as etapas do funil de vendas com base na data-limite.
+</td>
+</tr>
+</tbody>
+</table>
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+## Histórias de Usuários e Requisitos Funcionais
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+<table border="1" cellspacing="0" cellpadding="5">
+    <thead>
+        <tr>
+            <th style="text-align: center;">ID</th>
+            <th style="text-align: center;">Descrição do Requisito</th>
+            <th style="text-align: center;" colspan="3">História</th>
+            <th style="text-align: center;">Prioridade</th>
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th style="text-align: center;">Eu como...</th>
+            <th style="text-align: center;">Quero/Desejo/Preciso</th>
+            <th style="text-align: center;">Para</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>RF-01</b></td>
+            <td>Permitir que o usuário realize login no sistema.</td>
+            <td>Usuário</td>
+            <td>fazer login no sistema</td>
+            <td>ter acesso às funcionalidades que me cabem</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RF-02</b></td>
+            <td>Permitir que o usuário possa visualizar e editar seus dados</td>
+            <td>Usuário</td>
+            <td>visualizar e editar meus dados de usuário (nome, email, telefone etc)</td>
+            <td>poder manter meus dados atualizados</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RF-03</b></td>
+            <td>Permitir que o usuário com perfil de administrador liste e visualize perfis.</td>
+            <td>Administrador</td>
+            <td>listar e visualizar perfis de usuários do sistema</td>
+            <td>saber quais perfis estão utilizando o sistema</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RF-04</b></td>
+            <td>Permitir ao administrador cadastrar e editar perfis.</td>
+            <td>Administrador</td>
+            <td>cadastrar e editar perfis dos usuários do sistema e suas permissões</td>
+            <td>garantir que usuários não tenham acesso a funcionalidades que não lhes cabem</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RF-05</b></td>
+            <td>Permitir que o usuário com perfil de gerente ou corretor cadastrar e editar leads.</td>
+            <td>Gerente / Corretor</td>
+            <td>cadastrar e editar leads</td>
+            <td>registrar o interesse de compradores em potencial e convertê-los em vendas</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RF-06</b></td>
+            <td>Permitir que o usuário com perfil de gerente ou corretor possa filtrar os leads cadastrados aplicando diferentes critérios.</td>
+            <td>Gerente / Corretor</td>
+            <td>listar, visualizar e filtrar leads</td>
+            <td>manter um controle dos leads cadastrados e ter uma visão ampla dos clientes em potencial</td>
+            <td>Média</td>
+        </tr>
+        <tr>
+            <td><b>RF-07</b></td>
+            <td>Permitir que o usuário com perfil de gerente possa distribuir os leads entre os corretores cadastrados.</td>
+            <td>Gerente</td>
+            <td>distribuir leads para os corretores</td>
+            <td>que os corretores possam convertê-los em vendas</td>
+            <td>Média</td>
+        </tr>
+        <tr>
+            <td><b>RF-08</b></td>
+            <td>Permitir que o usuário com perfil de gerente ou corretor visualize, por meio de listas, todos os imóveis cadastrados por ele ou por corretores.</td>
+            <td>Gerente / Corretor</td>
+            <td>listar, visualizar e filtrar imóveis</td>
+            <td>ter uma visão ampla dos imóveis à venda pela corretora</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RF-09</b></td>
+            <td>Permitir que o usuário com perfil de gerente ou corretor cadastre novos imóveis.</td>
+            <td>Gerente / Corretor</td>
+            <td>cadastrar e editar imóveis</td>
+            <td>conectar potenciais compradores aos imóveis de seu interesse</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RF-10</b></td>
+            <td>Permitir que o usuário com perfil de corretor visualize, por meio de um quadro kanban, as etapas em que cada lead atribuído a ele se encontra.</td>
+            <td>Corretor</td>
+            <td>visualizar meus leads em forma de kanban</td>
+            <td>organizar melhor minhas negociações e acompanhar/visualizar o progresso de cada lead</td>
+            <td>Baixa</td>
+        </tr>
+        <tr>
+            <td><b>RF-11</b></td>
+            <td>Gerar relatórios de performance dos corretores</td>
+            <td>Gerente</td>
+            <td>gerar e visualizar relatórios de performance dos corretores</td>
+            <td>acompanhar performance e  fomentar melhores estratégias de venda</td>
+            <td>Baixa</td>
+        </tr>
+        <tr>
+            <td><b>RF-12</b></td>
+            <td>Acompanhar o progresso dos leads e do funil de vendas</td>
+            <td>Gerente / Corretor</td>
+            <td>visualizar um calendário com as próximas etapas do funil de vendas</td>
+            <td>ser alertado na data de acesso, sobre os leads e as etapas do funil de vendas baseadas na data-limite</td>
+            <td>Baixa</td>
+        </tr>
+    </tbody>
+</table>
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+***Prioridade: Alta / Média / Baixa.*
 
-## Histórias de Usuários
+## Requisitos não Funcionais
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+<table border="1" cellspacing="0" cellpadding="5">
+    <thead>
+        <tr>
+            <th style="text-align: center;">ID</th>
+            <th style="text-align: center;">Descrição</th>
+            <th style="text-align: center;">Prioridade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>RNF-01</b></td>
+            <td>A aplicação deverá estar disponível na internet no mínimo 98% do tempo.</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RNF-02</b></td>
+            <td>A aplicação deverá apresentar menos de 2% de problemas de compatibilidade nos principais navegadores (Chrome, Firefox, Opera e Edge).</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RNF-03</b></td>
+            <td>A aplicação deverá ser responsiva, se adequando a telas de computadores e celulares nas resoluções mais comuns.</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RNF-04</b></td>
+            <td>A aplicação deverá levar em consideração os elementos de acessibilidade em modo claro e escuro, bem como aumentar e diminuir a fonte.</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RNF-05</b></td>
+            <td>A aplicação deverá notificar o usuário com perfil de gerente sempre que uma etapa do processo de um lead estiver com 3 DIAS em atraso. A notificação deverá identificar o lead, a etapa do processo e o corretor responsável.</td>
+            <td>Baixa</td>
+        </tr>
+    </tbody>
+</table>
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
-## Modelagem do Processo de Negócio 
-
-### Análise da Situação Atual
-
-Apresente aqui os problemas existentes que viabilizam sua proposta. Apresente o modelo do sistema como ele funciona hoje. Caso sua proposta seja inovadora e não existam processos claramente definidos, apresente como as tarefas que o seu sistema pretende implementar são executadas atualmente, mesmo que não se utilize tecnologia computacional. 
-
-### Descrição Geral da Proposta
-
-Apresente aqui uma descrição da sua proposta abordando seus limites e suas ligações com as estratégias e objetivos do negócio. Apresente aqui as oportunidades de melhorias.
-
-### Processo 1 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 1. Em seguida, apresente o modelo do processo 1, descrito no padrão BPMN. 
-
-![Processo 1](img/02-bpmn-proc1.png)
-
-### Processo 2 – NOME DO PROCESSO
-
-Apresente aqui o nome e as oportunidades de melhorias para o processo 2. Em seguida, apresente o modelo do processo 2, descrito no padrão BPMN.
-
-![Processo 2](img/02-bpmn-proc2.png)
-
-## Indicadores de Desempenho
-
-Apresente aqui os principais indicadores de desempenho e algumas metas para o processo. Atenção: as informações necessárias para gerar os indicadores devem estar contempladas no diagrama de classe. Colocar no mínimo 5 indicadores. 
-
-Usar o seguinte modelo: 
-
-![Indicadores de Desempenho](img/02-indic-desemp.png)
-Obs.: todas as informações para gerar os indicadores devem estar no diagrama de classe a ser apresentado a posteriori. 
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto. Para determinar a prioridade de requisitos, aplicar uma técnica de priorização de requisitos e detalhar como a técnica foi aplicada.
-
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
-### Requisitos não Funcionais
-
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
-
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
-## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
-
-## Diagrama de Casos de Uso
-
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
-
-# Matriz de Rastreabilidade
-
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
-
-
-# Gerenciamento de Projeto
-
-De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar projetos, e que caracterizam a multidisciplinaridade envolvida, são: Integração, Escopo, Cronograma (Tempo), Custos, Qualidade, Recursos, Comunicações, Riscos, Aquisições, Partes Interessadas. Para desenvolver projetos um profissional deve se preocupar em gerenciar todas essas dez áreas. Elas se complementam e se relacionam, de tal forma que não se deve apenas examinar uma área de forma estanque. É preciso considerar, por exemplo, que as áreas de Escopo, Cronograma e Custos estão muito relacionadas. Assim, se eu amplio o escopo de um projeto eu posso afetar seu cronograma e seus custos.
-
-## Gerenciamento de Tempo
-
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
-
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
-
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
-
-![Gráfico de Gantt](img/02-grafico-gantt.png)
-
-## Gerenciamento de Equipe
-
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
-
-![Simple Project Timeline](img/02-project-timeline.png)
-
-## Gestão de Orçamento
-
-O processo de determinar o orçamento do projeto é uma tarefa que depende, além dos produtos (saídas) dos processos anteriores do gerenciamento de custos, também de produtos oferecidos por outros processos de gerenciamento, como o escopo e o tempo.
-
-![Orçamento](img/02-orcamento.png)
+***Prioridade: Alta / Média / Baixa.*
