@@ -74,7 +74,7 @@ todos tenham o mesmo entendimento dos artefatos, a equipe está utilizando o Git
 
 * **Fila de trabalho:** é o Backlog do Produto e lista todas as características, funções, requisitos, melhorias e correções que formam as mudanças que devem ser feitas no produto nas futuras versões;
 * **Fila de trabalho da Sprint:** lista o conjunto de itens do Backlog do Produto selecionados para a Sprint, juntamente com o plano para entregar o incremento do produto e atingir o objetivo da Sprint;
-* **Em desenvolvimento:**lista as tarefas iniciadas e ainda não concluídas para testes;
+* **Em desenvolvimento:** lista as tarefas iniciadas e ainda não concluídas para testes;
 * **Em testes:** lista as tarefas aguardando a conclusão dos testes;
 * **Concluído:** lista os incrementos prontos,na condição utilizável e dentro das especificações de qualidade para entrega;
  
