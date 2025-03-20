@@ -68,6 +68,15 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 ### Processo
 
 Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+
+Para para maximizar a transparência das informações chave, de modo que
+todos tenham o mesmo entendimento dos artefatos, a equipe está utilizando o GitHub e o VS Studio Code, estruturado com as seguintes listas em modelo Kanban:
+
+* **Fila de trabalho:** é o Backlog do Produto e lista todas as características, funções, requisitos, melhorias e correções que formam as mudanças que devem ser feitas no produto nas futuras versões;
+* **Fila de trabalho da Sprint:** lista o conjunto de itens do Backlog do Produto selecionados para a Sprint, juntamente com o plano para entregar o incremento do produto e atingir o objetivo da Sprint;
+* **Em desenvolvimento:**lista as tarefas iniciadas e ainda não concluídas para testes;
+* **Em testes:** lista as tarefas aguardando a conclusão dos testes;
+* **Concluído:** lista os incrementos prontos,na condição utilizável e dentro das especificações de qualidade para entrega;
  
 > **Links Úteis**:
 > - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
