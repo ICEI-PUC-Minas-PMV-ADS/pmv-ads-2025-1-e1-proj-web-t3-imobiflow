@@ -73,9 +73,11 @@ Para para maximizar a transparência das informações chave, de modo que
 todos tenham o mesmo entendimento dos artefatos, a equipe está utilizando o GitHub e o VS Studio Code, estruturado com as seguintes listas em modelo Kanban:
 
 * **Fila de trabalho:** é o Backlog do Produto e lista todas as características, funções, requisitos, melhorias e correções que formam as mudanças que devem ser feitas no produto nas futuras versões;
-* **Fila de trabalho da Sprint:** lista o conjunto de itens do Backlog do Produto selecionados para a Sprint, juntamente com o plano para entregar o incremento do produto e atingir o objetivo da Sprint;
+
 * **Em desenvolvimento:** lista as tarefas iniciadas e ainda não concluídas para testes;
+
 * **Em testes:** lista as tarefas aguardando a conclusão dos testes;
+
 * **Concluído:** lista os incrementos prontos,na condição utilizável e dentro das especificações de qualidade para entrega;
  
 > **Links Úteis**:
@@ -98,10 +100,13 @@ O editor de código foi escolhido porque ele possui uma integração com o siste
 
 Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
 
-*Whatssapp
-*Mockflow
-*Microsoft Teams
-*VS STUDIO CODE 
+* Whatssapp
+
+* Mockflow
+
+* Microsoft Teams
+
+* VS STUDIO CODE 
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 > - [Slack](https://slack.com/)
