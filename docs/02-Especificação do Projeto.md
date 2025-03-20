@@ -2,14 +2,14 @@
 
 ## Perfis de usuário
 
-<table>
+<table border="1" cellspacing="0" cellpadding="5">
 <tbody>
 <tr>
 <th colspan="2">Perfil 01: Administrador</th>
 </tr>
 <tr>
-<td width="150px"><b>Descrição:</b></td>
-<td width="600px">
+<td><b>Descrição:</b></td>
+<td>
 Responsável pelo gerenciamento do sistema.
 </td>
 </tr>
@@ -22,14 +22,14 @@ Responsável pelo gerenciamento do sistema.
 </tbody>
 </table>
 
-<table>
+<table border="1" cellspacing="0" cellpadding="5">
 <tbody>
 <tr>
 <th colspan="2">Perfil 02: Gerente</th>
 </tr>
 <tr>
-<td width="150px"><b>Descrição:</b></td>
-<td width="600px">
+<td><b>Descrição:</b></td>
+<td>
 Responsável pela administração dos cadastros de imóveis no sistema, leads e distribuição dos leads entre os corretores.
 </td>
 </tr>
@@ -46,14 +46,14 @@ Responsável pela administração dos cadastros de imóveis no sistema, leads e 
 </tbody>
 </table>
 
-<table>
+<table border="1" cellspacing="0" cellpadding="5">
 <tbody>
 <tr>
 <th colspan="2">Perfil 03: Corretor</th>
 </tr>
 <tr>
-<td width="150px"><b>Descrição:</b></td>
-<td width="600px">
+<td><b>Descrição:</b></td>
+<td>
 Profissional corretor de imóveis responsável por acompanhar leads e realizar vendas.
 </td>
 </tr>
