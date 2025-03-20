@@ -3,7 +3,13 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
+Perfil 1: Administrador: Responsavel pelo gerenciamento do sistema. Cria; edita e exclui perfis de usario.
+
+Perfil 2: Gerenete: Responsável pela administração dos cadastro de imóveis no sistema, leads e distribuição dos leads entre os corretores. Cadastrar e listar imóveis, cadastrar leads, listar e filtrar leads, distribuir leads que ainda não têm um corretor responsável entre os corretores, gerar relatório de performance dos corretores.
+
+Perfil 3: Corretor: Profissional corretor de imóveis responsável por acompanhar leads e realizar vendas. Cadastrar e listar imóveis, cadastrar leads, listar e filtrar leads, isualizar leads no formato kanban para acompanhar seu progresso, ser alertado quanto ao prazo de andamento dos leads e as etapas do funil de vendas com base na data-limite.
+
+ (wireframes).
 
  Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
