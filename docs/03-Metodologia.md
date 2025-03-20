@@ -3,7 +3,13 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Descreva aqui a metodologia de trabalho do grupo para atacar o problema. Definições sobre os ambiente de trabalho utilizados pela  equipe para desenvolver o projeto. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).
+Para o desenvolvimento deste projeto foram adotados os fundamentos do processo ágil pautados na metodologia SCRUM.
+
+A adoção da medologia SCRUM é a rmais condizente com a realidade do negócio e tem apoio de pesquisas acadêmicas como a da  Universidade Federal de Itajubá, realizada com uma empresa de tecnologia de pequeno porte, em que se concluiu que a aplicação deste framework apresentou: 
+
+**"melhoria na comunicação e aumento da colaboração entre envolvidos; aumento da motivação da equipe de desenvolvimento; diminuição no tempo gasto para terminar o projeto (prazo); diminuição do risco do projeto (menor possibilidade de insucesso).*
+
+*Outros dois benefícios presentes na literatura foram medidos e notados pelos dados quantitativos do projeto piloto e de outros projetos da empresa: diminuição dos custos de produção (mão de obra) e aumento de produtividade da equipe."*
 
 ## Relação de Ambientes de Trabalho
 
@@ -45,13 +51,14 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 
 ### Divisão de Papéis
 
-Apresente a divisão de papéis entre os membros do grupo.
 
-Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Rodrigo Taino;
-- Product Owner: Gabriel Augusto Kuasne Grigolon;
-- Equipe de Desenvolvimento: Rafael Rodrigues Mateus, Luiz Miguel Alves Santos e Luiz Felipe de Assis Cruz da Silva;
-- Equipe de Design: Luiz Fernando Zacarkim Soares;
+
+A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
+
+- **Scrum Master:** Rodrigo Taino;
+- **Product Owner:** Gabriel Augusto Kuasne Grigolon;
+- **Equipe de Desenvolvimento:** Rafael Rodrigues Mateus, Luiz Miguel Alves Santos e Luiz Felipe de Assis Cruz da Silva;
+- **Equipe de Design:** Luiz Fernando Zacarkim Soares;
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
