@@ -189,6 +189,45 @@ Profissional corretor de imóveis responsável por acompanhar leads e realizar v
     </tbody>
 </table>
 
+***Prioridade: Alta / Média / Baixa.*
 
 ## Requisitos não Funcionais
 
+<table border="1" cellspacing="0" cellpadding="5">
+    <thead>
+        <tr>
+            <th style="text-align: center;">ID</th>
+            <th style="text-align: center;">Descrição</th>
+            <th style="text-align: center;">Prioridade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><b>RNF-01</b></td>
+            <td>A aplicação deverá estar disponível na internet no mínimo 98% do tempo.</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RNF-02</b></td>
+            <td>A aplicação deverá apresentar menos de 2% de problemas de compatibilidade nos principais navegadores (Chrome, Firefox, Opera e Edge).</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RNF-03</b></td>
+            <td>A aplicação deverá ser responsiva, se adequando a telas de computadores e celulares nas resoluções mais comuns.</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RNF-04</b></td>
+            <td>A aplicação deverá levar em consideração os elementos de acessibilidade em modo claro e escuro, bem como aumentar e diminuir a fonte.</td>
+            <td>Alta</td>
+        </tr>
+        <tr>
+            <td><b>RNF-05</b></td>
+            <td>A aplicação deverá notificar o usuário com perfil de gerente sempre que uma etapa do processo de um lead estiver com 3 DIAS em atraso. A notificação deverá identificar o lead, a etapa do processo e o corretor responsável.</td>
+            <td>Baixa</td>
+        </tr>
+    </tbody>
+</table>
+
+***Prioridade: Alta / Média / Baixa.*
