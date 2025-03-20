@@ -1,12 +1,12 @@
-# TÍTULO DO PROJETO
+# Imobiflow
 
-`CURSO`
+`Análise e desenvolvimento de sistemas`
 
-`DISCIPLINA`
+`Desenvolvimento de aplicação web front-end`
 
-`SEMESTRE`
+`1º semestre/2025`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+O objetivo desse projeto é desenvolver uma aplicação web de gestão imobiliária que centraliza todas as informações em um único lugar, proporcionando mais organização e eficiência no dia a dia. Com essa solução, imobiliárias podem gerenciar seus leads de forma mais estruturada, facilitando o acompanhamento das negociações.
 
 ## Integrantes
 
