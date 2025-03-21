@@ -28,16 +28,9 @@ O projeto segue a seguinte convenção para o nome de branches:
 - `dev`: usada para testar novas funcionalidades antes de serem integradas à main.
 - `feature`: Para cada nova funcionalidade ou correção, cria-se uma branch a partir da dev (feature/nome-da-feature ou fix/nome-do-bug).
 
-A árvore desse esquema ficará da seguinte forma:
+### Estrutura de branches
 
-main
-│
-└── dev
-    ├── feature/sistema-login
-    ├── feature/melhoria-ui
-    ├── feature/ajuste-navbar
-    └── ...
-
+📂 main │ └── 📂 dev ├── 📂 feature/sistema-favoritos ├── 📂 feature/melhoria-ui ├── 📂 feature/ajuste-navbar └── ...
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
