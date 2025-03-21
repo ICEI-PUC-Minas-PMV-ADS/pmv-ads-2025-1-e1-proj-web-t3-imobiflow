@@ -24,18 +24,29 @@ foi utilizado para hospedagem do repositório.
 
 O projeto segue a seguinte convenção para o nome de branches:
 
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
+- `main`: contém apenas código estável e revisado
+- `dev`: usada para testar novas funcionalidades antes de serem integradas à main.
+- `feature`: Para cada nova funcionalidade ou correção, cria-se uma branch a partir da dev (feature/nome-da-feature ou fix/nome-do-bug).
+
+A árvore desse esquema ficará da seguinte forma:
+
+main
+│
+└── dev
+    ├── feature/sistema-login
+    ├── feature/melhoria-ui
+    ├── feature/ajuste-navbar
+    └── ...
+
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
 
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
+- `documentação 📖`: relacionadas à criação ou atualização da documentação do projeto.
+- `desenvolvimento 💻`: tarefas e melhorias no código relacionadas à implementação de novas funcionalidades.
+- `bug 🐛`: relatórios de erros ou falhas no sistema que precisam ser corrigidos.
+- `infraestrutura 🏗️`: questões ligadas à configuração do ambiente, otimização ou hospedagem.
+- `teste ✅`:testes de funcionalidades, correção de erros ou criação de novos cenários de teste.
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
