@@ -13,8 +13,13 @@ A adoção da medologia SCRUM é a mais condizente com a realidade do negócio e
 
 ## Relação de Ambientes de Trabalho
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito deverá ser apresentada em uma tabela que especifica que detalha Ambiente, Plataforma e Link de Acesso. 
-Nota: Vide documento modelo do estudo de caso "Portal de Notícias" e defina também os ambientes e frameworks que serão utilizados no desenvolvimento de aplicações móveis.
+| **Ambiente**                     | **Plataforma**                   | **Link de Acesso** |
+|-----------------------------------|----------------------------------|--------------------|
+| **Repositório de Código Fonte**   | GitHub            | [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t3-imobiflow/blob/main/src/README.md) |
+| **Documentos do Projeto**         | GitHub             | [Documentos do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t3-imobiflow/tree/main/docs) |
+| **Projeto de Interface**          | Mockflow             | [Projeto de Interface](https://mockflow.com) |
+| **Gerenciamento do Projeto**      | GitHub                 | [Gerenciamento do Projeto](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t3-imobiflow/projects) |
+
 
 ## Controle de Versão
 
@@ -86,19 +91,21 @@ A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para def
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
+Para a gestão das tarefas do projeto, estamos utilizando o GitHub com uma estrutura clara de fluxo de trabalho, dividida nas seguintes etapas:
 
-Para para maximizar a transparência das informações chave, de modo que
-todos tenham o mesmo entendimento dos artefatos, a equipe está utilizando o GitHub e o VS Studio Code, estruturado com as seguintes listas em modelo Kanban:
+| **Etapa**              | **Descrição**                                                                 |
+|------------------------|-------------------------------------------------------------------------------|
+| **Fila de Trabalho (Backlog)**  | É o Backlog do Produto e lista todas as características, funções, requisitos, melhorias e correções que formam as mudanças que devem ser feitas no produto nas futuras versões. |
+| **Em Desenvolvimento**  | Lista as tarefas iniciadas e ainda não concluídas para testes |
+| **Em Testes**           | Lista as tarefas aguardando a conclusão dos testes. |
+| **Concluído**           | Lista os incrementos prontos,na condição utilizável e dentro das especificações de qualidade para entrega. |
 
-* **Fila de trabalho:** é o Backlog do Produto e lista todas as características, funções, requisitos, melhorias e correções que formam as mudanças que devem ser feitas no produto nas futuras versões;
+Essas etapas ajudam a controlar o progresso das tarefas, garantindo que o fluxo de desenvolvimento seja organizado e transparente para todos os membros da equipe.  
 
-* **Em desenvolvimento:** lista as tarefas iniciadas e ainda não concluídas para testes;
-
-* **Em testes:** lista as tarefas aguardando a conclusão dos testes;
-
-* **Concluído:** lista os incrementos prontos,na condição utilizável e dentro das especificações de qualidade para entrega;
+O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1866/ e é apresentado, no estado atual, na figura abaixo:
  
+ <a href="https://ibb.co/JFBsRV5Q"><img src="https://i.ibb.co/pr0LvcJy/Captura-de-tela-de-2025-03-21-19-54-19.png" alt="Captura-de-tela-de-2025-03-21-19-54-19" border="0" /></a>
+
 > **Links Úteis**:
 > - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
 > - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
