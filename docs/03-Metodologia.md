@@ -5,7 +5,7 @@
 
 Para o desenvolvimento deste projeto foram adotados os fundamentos do processo ágil pautados na metodologia SCRUM.
 
-A adoção da medologia SCRUM é a rmais condizente com a realidade do negócio e tem apoio de pesquisas acadêmicas como a da  Universidade Federal de Itajubá, realizada com uma empresa de tecnologia de pequeno porte, em que se concluiu que a aplicação deste framework apresentou: 
+A adoção da medologia SCRUM é a mais condizente com a realidade do negócio e tem apoio de pesquisas acadêmicas como a da  Universidade Federal de Itajubá, realizada com uma empresa de tecnologia de pequeno porte, em que se concluiu que a aplicação deste framework apresentou: 
 
 **"melhoria na comunicação e aumento da colaboração entre envolvidos; aumento da motivação da equipe de desenvolvimento; diminuição no tempo gasto para terminar o projeto (prazo); diminuição do risco do projeto (menor possibilidade de insucesso).*
 
