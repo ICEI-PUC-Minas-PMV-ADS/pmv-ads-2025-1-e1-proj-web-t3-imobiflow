@@ -30,7 +30,7 @@ O projeto segue a seguinte convenção para o nome de branches:
 
 ### Estrutura de branches
 
-📂 main │ └── 📂 dev ├── 📂 feature/sistema-favoritos ├── 📂 feature/melhoria-ui ├── 📂 feature/ajuste-navbar └── ...
+📂 main │ └── 📂 dev ├── 📂 feature/sistema-login ├── 📂 feature/melhoria-ui ├── 📂 feature/ajuste-navbar └── ...
 
 Quanto à gerência de issues, o projeto adota a seguinte convenção para
 etiquetas:
