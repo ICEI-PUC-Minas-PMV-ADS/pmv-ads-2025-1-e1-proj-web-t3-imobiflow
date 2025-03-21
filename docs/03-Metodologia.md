@@ -41,7 +41,22 @@ etiquetas:
 - `infraestrutura 🏗️`: questões ligadas à configuração do ambiente, otimização ou hospedagem.
 - `teste ✅`:testes de funcionalidades, correção de erros ou criação de novos cenários de teste.
 
-Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
+### **Configuração do Projeto no Versionamento**  
+
+O projeto foi configurado utilizando **Git** como sistema de controle de versão, com repositório hospedado no **GitHub**. A estrutura de branches, tags, commits, merges e issues foi definida para garantir um fluxo de trabalho organizado e eficiente.  
+
+### **Gerência de Branches**  
+A estrutura de branches foi simplificada para facilitar o desenvolvimento e a colaboração:  
+
+- **`main`** – Branch principal, contendo a versão estável do projeto. Apenas código testado e aprovado é mesclado aqui.  
+- **`dev`** – Branch de desenvolvimento, onde novas funcionalidades são integradas e testadas antes de irem para `main`.  
+- **`feature/nome-da-feature`** – Branches criadas para cada nova funcionalidade. Sempre derivadas de `dev` e mescladas de volta após a conclusão do desenvolvimento.  
+
+### **Gerência de Commits e Merges**  
+- Commits seguem boas práticas, utilizando mensagens descritivas e padronizadas para facilitar o rastreamento das alterações.  
+- As branches de `feature` são mescladas em `dev` por meio de **Pull Requests (PRs)**, garantindo revisão de código antes da integração.  
+- A `dev` é mesclada na `main` apenas quando a versão estável do projeto está pronta para lançamento.  
+
 
 > **Links Úteis**:
 > - [Microfundamento: Gerência de Configuração](https://pucminas.instructure.com/courses/87878/)
@@ -94,24 +109,26 @@ todos tenham o mesmo entendimento dos artefatos, a equipe está utilizando o Git
 
 ### Ferramentas
 
-As ferramentas empregadas no projeto são:
+### **Ferramentas Utilizadas no Desenvolvimento**  
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+Durante o desenvolvimento do projeto, diversas ferramentas foram empregadas para facilitar a colaboração, organização e implementação do sistema.  
 
-O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
+## **1. Comunicação**  
+- **Microsoft Teams** – Utilizado para reuniões, alinhamentos e compartilhamento de arquivos da equipe. Escolhido por sua integração com outras ferramentas de produtividade e suporte a videoconferências.  
+- **WhatsApp** – Utilizado para comunicações rápidas e informais, facilitando a troca ágil de informações entre os membros da equipe.  
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
+## **2. Controle de Versão e Hospedagem**  
+- **Git** – Sistema de controle de versão distribuído, essencial para gerenciar o histórico de mudanças e permitir colaboração eficiente no código.  
+- **GitHub** – Plataforma utilizada para hospedagem do repositório, gerenciamento de branches, pull requests e issues, facilitando a organização e rastreabilidade do desenvolvimento.  
 
-* Whatssapp
+## **3. Desenvolvimento**  
+- **Visual Studio Code** – Editor de código escolhido por sua leveza, suporte a extensões e integração nativa com Git, facilitando o desenvolvimento e depuração do projeto.  
 
-* Mockflow
+## **4. Wireframing e Design**  
+- **Mockflow** – Ferramenta utilizada para criar protótipos e wireframes das telas do sistema antes da implementação, garantindo um planejamento visual claro e reduzindo retrabalho no desenvolvimento.  
 
-* Microsoft Teams
-
-* VS STUDIO CODE 
+Cada ferramenta foi escolhida estrategicamente para otimizar a produtividade e comunicação da equipe, garantindo um fluxo de trabalho eficiente e bem estruturado.  
+ 
  
 > **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
 > - [Slack](https://slack.com/)
-> - [Github](https://github.com/)
