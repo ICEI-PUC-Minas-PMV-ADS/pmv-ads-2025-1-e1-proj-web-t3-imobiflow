@@ -104,7 +104,8 @@ Essas etapas ajudam a controlar o progresso das tarefas, garantindo que o fluxo 
 
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1866/ e é apresentado, no estado atual, na figura abaixo:
  
- <a href="https://ibb.co/JFBsRV5Q"><img src="https://i.ibb.co/pr0LvcJy/Captura-de-tela-de-2025-03-21-19-54-19.png" alt="Captura-de-tela-de-2025-03-21-19-54-19" border="0" /></a>
+ ![Quadro Kanban](https://i.ibb.co/wr0zNVMs/Captura-de-tela-de-2025-03-21-19-54-19.png)
+
 
 > **Links Úteis**:
 > - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
