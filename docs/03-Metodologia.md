@@ -104,7 +104,7 @@ Essas etapas ajudam a controlar o progresso das tarefas, garantindo que o fluxo 
 
 O quadro kanban do grupo no GitHub está disponível no link https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/1866/ e é apresentado, no estado atual, na figura abaixo:
  
- ![Quadro Kanban](https://i.ibb.co/wr0zNVMs/Captura-de-tela-de-2025-03-21-19-54-19.png)
+ ![Quadro Kanban](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-1-e1-proj-web-t3-imobiflow/blob/main/docs/img/Captura%20de%20tela%20de%202025-03-21%2019-54-19.png?raw=true)
 
 
 > **Links Úteis**:
