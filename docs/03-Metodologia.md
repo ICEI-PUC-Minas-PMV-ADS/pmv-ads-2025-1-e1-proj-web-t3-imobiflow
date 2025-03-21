@@ -130,5 +130,3 @@ Durante o desenvolvimento do projeto, diversas ferramentas foram empregadas para
 Cada ferramenta foi escolhida estrategicamente para otimizar a produtividade e comunicação da equipe, garantindo um fluxo de trabalho eficiente e bem estruturado.  
  
  
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
