@@ -17,11 +17,6 @@ Falta de organização e comunicação: A dispersão de informações em papéis
 * Impacto na conversão de leads: Todos os desafios mencionados afetam diretamente a taxa de conversão, resultando na perda de oportunidades comerciais e na redução da principal fonte de receitas das imobiliárias.
 
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
-
 ## Objetivos
 
 * Visualização e gestão de leads pelos corretores com interface amigável e de fácil acompanhamento com notificações, garantindo que nenhuma oportunidade de negócio seja perdida.
@@ -30,9 +25,6 @@ Falta de organização e comunicação: A dispersão de informações em papéis
 
 * Disponibilizar um conjunto de funcionalidades essenciais para todo o ciclo de vendas imobiliário, desde o primeiro contato com o cliente até o fechamento do contrato.
 
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
@@ -47,9 +39,6 @@ Desafios na Gestão de Leads:
 * Dificuldade na Organização de Contatos: Capturar contatos é apenas o primeiro passo; o verdadeiro desafio está em organizá-los e transformá-los em oportunidades reais de venda. 
 
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
-
 ## Público-Alvo
 
 Há diversas imobiliárias e profissionais corretores, que são geridos e atuam de modo totalmente tradicional, ou seja, ainda não enxergaram e aproveitaram as vantagens da era digital. 
@@ -60,9 +49,3 @@ Os perfis de usuários são:
 * Imobiliárias – Pessoas jurídicas do setor imobiliário que desejam centralizar o atendimento ao cliente, distribuir leads entre os corretores de modo organizado e visualmente agradável, acompanhar métricas de desempenho e garantir um processo de vendas mais ágil e estruturado.
 A plataforma será projetada para atender desde profissionais corretores de imóveis individuais até imobiliárias, oferecendo funcionalidades personalizadas para cada necessidade, aumentando a eficiência e potencializando os resultados.
 
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)

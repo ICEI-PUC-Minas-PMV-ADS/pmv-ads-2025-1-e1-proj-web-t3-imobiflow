@@ -3,7 +3,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-Perfil 1: Administrador: Responsavel pelo gerenciamento do sistema. Cria; edita e exclui perfis de usario.
+Perfil 1: Administrador: Responsavel pelo gerenciamento do sistema. Cria; edita e exclui perfis de usuário.
 
 Perfil 2: Gerente: Responsável pela administração dos cadastro de imóveis no sistema, leads e distribuição dos leads entre os corretores. Cadastrar e listar imóveis, cadastrar leads, listar e filtrar leads, distribuir leads que ainda não têm um corretor responsável entre os corretores, gerar relatório de performance dos corretores.
 
